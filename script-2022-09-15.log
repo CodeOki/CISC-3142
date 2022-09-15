@@ -1,0 +1,663 @@
+Script started on 2022-09-15 01:03:06+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="94" LINES="30"]
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ scriptreplay --timing=time-$(date +%F).txt script-$(date +%F).log  
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git log --since='2 weeks ago' 
+[?1h=[33mcommit b81933ede529e7609fbc542814565c5426cfe274[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: CodeOki <davidweng12345@gmail.com>[m
+Date:   Wed Sep 7 22:43:07 2022 +0000[m
+[m
+    hello.cpp[m
+[m
+[33mcommit b0f1a846ac57365902f38aae6bc62639fe5a54d3[m[m
+Author: CodeOki <davidweng12345@gmail.com>[m
+Date:   Wed Sep 7 20:33:13 2022 +0000[m
+[m
+    first commit[m
+[m
+[33mcommit c920759e044e5792fbf63c106bda99cc2ba4427b[m[m
+Author: CodeOki <davidweng12345@gmail.com>[m
+Date:   Wed Sep 7 20:29:34 2022 +0000[m
+[m
+    first commit[m
+[K[?1l>]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git commit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;41H(B[0;7m[ Reading... ](B[m[28;39H(B[0;7m[ Read 45 lines ](B[m[H(B[0;7m  GNU nano 4.8                    /home/user/.git/COMMIT_EDITMSG                              [1;93H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[28d[3d[39;49m[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d# Changes to be committed:[8d#       renamed:    hello.cpp -> CISC-3142/hello.cpp[9d#       new file:   README[10d#       new file:   Sales_item.h[11d#[12d# Changes not staged for commit:[13d#       modified:   .Terminal.term-0.term[14d#       deleted:    README[15d#       deleted:    Sales_item.h[16d#       deleted:    typescript[17d#       deleted:    ../Note.txt[18d#       deleted:    ../Terminal.term[19d#[20d# Untracked files:[21d#       ../.Terminal.term-0.term[22d#       ../.bash_history[23d#       ../.bash_profile[24d#       ../.bashrc[25d#       ../.gitconfig[26d#       ../.jupyter-blobs-v0.db[27d#       ../.lesshst[2d[39m(B[m[?12l[?25h[?25l[1;85H(B[0;7mModified(B[m[2dt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lE[?12l[?25h[?25lx[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lc[?12l[?25h[?25li[28d[K[2;7H[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l[?12l[?25h[?25l[28;36H(B[0;7m[ Recording a macro... ](B[m[2;41H[?12l[?25h[?25lw[?12l[?25h[?25lq[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l7[3;27r8[3dM[1;30r[3;1H[?12l[?25h[?25l[?12l[?25h[?25l[28;36H (B[0;7m[ Stopped recording ](B[m[K[3d[?12l[?25h[?25l:[?12l[?25h[?25lw[?12l[?25h[?25lq[?12l[?25h[?25l7[4;27r8[4dM[1;30r[4;1H[?12l[?25h[?25l[4;27r[27;1H
+[1;30r[27;1H[36m#       ../.jupyter-blobs-v0.db[3;4H[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[28;36H(B[0;7m[ Recording a macro... ](B[m[3d[?12l[?25h[?25l[3;27r[27;1H
+[1;30r[27;1H[36m#       ../.lesshst[2;41H[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[28;36H (B[0;7m[ Stopped recording ](B[m[K[2;41H[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25l [?12l[?25h[?25l7[3;27r8[3dM[1;30r[3;1H[?12l[?25h[?25ld[?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[28;36H(B[0;7m[ Recording a macro... ](B[m[3d[?12l[?25h[?25lW[?12l[?25h[?25lQ[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lw[?12l[?25h[?25lq[?12l[?25h[?25l7[4;27r8[4dM[1;30r[4;1H[?12l[?25h[?25l[4;27r[27;1H
+[1;30r[27;1H[36m#       ../.jupyter-blobs-v0.db[3;3H[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[3;27r[27;1H
+[1;30r[27;1H[36m#       ../.lesshst[2;41H[39m(B[m[?12l[?25h[?25l[9;27H[?12l[?25h[?25l[28d[K[21;33H[?12l[?25h[?25l[26d[?12l[?25h[?25l[2;28r[28;1H[2S[1;30r[26;1H[36m#       ../.smc[27d#       ../.snapshots/[39m(B[m[?12l[?25h[?25l[26;16H[?12l[?25h[?25l[24;32H[?12l[?25h[?25l[21;25H[?12l[?25h[?25l[19;33H[?12l[?25h[?25l[17;2H[?12l[?25h[?25l[14;31H[?12l[?25h[?25l[11;41H[?12l[?25h[?25l[6d[?12l[?25h[?25l[4;19H[?12l[?25h[?25l[2;27r[2;1H[2T[1;30r[2;1HExercise 2 is done, this is a 2nd commit[3d[36m# Please enter the commit message for your changes. Lines starting[2;41H[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28;36H(B[0;7m[ Suspension disabled ](B[m[2;41H[?12l[?25h[?25lz[?12l[?25h[?25lz[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[28;36H (B[0;7m[ Suspension en[59G(B[m[2;41H[?12l[?25h[?25lz[?12l[?25h[?25lz[?12l[?25h[?25lz[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l
+
+Use "fg" to return to nano.
+
+[1]+  Stopped                 git commit
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ zz[K[Kgit status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mrenamed:    hello.cpp -> CISC-3142/hello.cpp[m
+	[32mnew file:   README[m
+	[32mnew file:   Sales_item.h[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Terminal.term-0.term[m
+	[31mdeleted:    README[m
+	[31mdeleted:    Sales_item.h[m
+	[31mdeleted:    typescript[m
+	[31mdeleted:    ../Note.txt[m
+	[31mdeleted:    ../Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.Terminal.term-0.term[m
+	[31m../.bash_history[m
+	[31m../.bash_profile[m
+	[31m../.bashrc[m
+	[31m../.gitconfig[m
+	[31m../.jupyter-blobs-v0.db[m
+	[31m../.lesshst[m
+	[31m../.smc[m
+	[31m../.snapshots/[m
+	[31m../.ssh/[m
+	[31m../.viminfo[m
+	[31m.Terminal.term-1.term[m
+	[31m.Terminal.term-2.term[m
+	[31m.Terminal.term-3.term[m
+	[31mCISC-3142/Note.txt[m
+	[31mCISC-3142/README.md[m
+	[31mEx2/[m
+	[31mMakefile[m
+	[31mREADME.md[m
+	[31mscript-2022-09-14.log[m
+	[31mscript-2022-09-15.log[m
+	[31mtime-2022-09-14.txt[m
+	[31mtime-2022-09-15.txt[m
+	[31m../script[m
+	[31m../typescript[m
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add README
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add Makefie[Kle
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add Sales_item.h
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ gt[Kit add [K[K[K[K[K commit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28d(B[0;7mFile ...r/.git/COMMIT_EDITMSG is being edited by user (with nano 4.8, PID 2810); open anyway? [29;1H Y(B[m Yes[30d(B[0;7m N(B[m No[30;17H(B[0;7m^C(B[m Cancel[28;94H[?12l[?25h[?25l[28;40H[1K (B[0;7m[ Reading... ](B[m[K[28;39H(B[0;7m[ Read 41 lines ](B[m[H(B[0;7m  GNU nano 4.8                    /home/user/.git/COMMIT_EDITMSG                              [1;93H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line[28d[3d[39;49m[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch master[7d# Changes to be committed:[8d#       renamed:    hello.cpp -> CISC-3142/hello.cpp[9d#       new file:   Makefile[10d#[11d# Changes not staged for commit:[12d#       modified:   .Terminal.term-0.term[13d#       deleted:    typescript[14d#       deleted:    ../Note.txt[15d#       deleted:    ../Terminal.term[16d#[17d# Untracked files:[18d#       ../.Terminal.term-0.term[19d#       ../.bash_history[20d#       ../.bash_profile[21d#       ../.bashrc[22d#       ../.gitconfig[23d#       ../.jupyter-blobs-v0.db[24d#       ../.lesshst[25d#       ../.smc[26d#       ../.snapshots/[27d#       ../.ssh/[2d[39m(B[m[?12l[?25h[?25l[1;85H(B[0;7mModified(B[m[2dT[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lE[?12l[?25h[?25lx[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25li[28d[K[2;7H[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l7[3;27r8[3dM[1;30r[3;1H[?12l[?25h[?25l[?12l[?25h[?25l[28;36H(B[0;7m[ Suspension disabled ](B[m[3d[?12l[?25h[?25lz[?12l[?25h[?25lz[?12l[?25h[?25lz[?12l[?25h[?25lz[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28;33H(B[0;7m[ Suspension is not enabled ](B[m[3d[?12l[?25h[?25lz[?12l[?25h[?25l[?12l[?25h[?25l[28;33H    (B[0;7m[ Suspension(B[m[3P[28;59H[3dz[?12l[?25h[?25l[?12l[?25h[?25l[28;36H(B[0;7m[ Suspension dis[59G(B[m[3dz[?12l[?25h[?25l[28;36H (B[0;7m[ Suspension en[59G(B[m[3dz[?12l[?25h[?25l[K[?12l[?25h[?25l[3;27r[27;1H
+[1;30r[27;1H[36m#       ../.ssh/[2;23H[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[17G[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l  2nd commit[2;14H[?12l[?25h[?25l[1P [?12l[?25h[?25l2[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l[3d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[28d[K[3;10H[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[2;23H[?12l[?25h[?25l7[3;27r8[3dM[1;30r[3;1H[?12l[?25h[?25l[?12l[?25h[?25l[28;36H(B[0;7m[ Recording a macro... ](B[m[3d[?12l[?25h[?25lW[?12l[?25h[?25l[K[?12l[?25h[?25lw[?12l[?25h[?25lq[?12l[?25h[?25l7[4;27r8[4dM[1;30r[4;1H[?12l[?25h[?25l[4;27r[27;1H
+[1;30r[27;1H[36m#       ../.snapshots/[3;3H[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l
+
+Use "fg" to return to nano.
+
+[2]+  Stopped                 git commit
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ it commit -m "update the README.md with link to contributing guide"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadded README.md, created Ex2 F[Kfo[K[Kfolder and Shi[K[K[KSales_item.h. C[Kcre ated makefile[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K.[K.
+> created makefile with echo h[K"hello world""
+bash: it: command not found
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ gv[Kit commit -m "added README.md, created Ex2 folder and Sales_item.h.
+> > created makefile with echo "hello world""
+error: pathspec 'world' did not match any file(s) known to git
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git it commit -m "added README.md, created Ex2 folder and Sales_item.h. [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K.
+> > created makefile with echo "hello world""[K[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[K[1P"[1P"o"[1P"o"[C[K"
+git: 'it' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git[K[K[KgV[Kit commit -m "added README.md, created Ex2 folder and Sales_item.h.
+> > created makefile with echo "hello world""[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ko"
+[master 7da21ab] added README.md, created Ex2 folder and Sales_item.h. > created makefile with echo
+ 2 files changed, 2 insertions(+)
+ rename MainDirectoryFolder/{ => CISC-3142}/hello.cpp (100%)
+ create mode 100644 MainDirectoryFolder/Makefile
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git psu[K[Kush
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/CodeOki/CISC-3142.git'
+[m]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push origin main[K[K[K[K[K[K[K[K[K[K[Korigin masger
+error: src refspec masger does not match any
+[31merror: failed to push some refs to 'https://github.com/CodeOki/CISC-3142.git'
+[m]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push --set-i[Kupstream origin master
+Username for 'https://github.com': CodeOki
+Password for 'https://CodeOki@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/CodeOki/CISC-3142.git/'
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git remote add origin https://github.com/CodeOki/CISC-3142.git
+fatal: remote origin already exists.
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git pull
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)[Kremote: Counting objects:  25% (2/8)[Kremote: Counting objects:  37% (3/8)[Kremote: Counting objects:  50% (4/8)[Kremote: Counting objects:  62% (5/8)[Kremote: Counting objects:  75% (6/8)[Kremote: Counting objects:  87% (7/8)[Kremote: Counting objects: 100% (8/8)[Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  16% (1/6)[Kremote: Compressing objects:  33% (2/6)[Kremote: Compressing objects:  50% (3/6)[Kremote: Compressing objects:  66% (4/6)[Kremote: Compressing objects:  83% (5/6)[Kremote: Compressing objects: 100% (6/6)[Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 6 (delta 1), reused 3 (delta 0), pack-reused 0[K
+Unpacking objects:  16% (1/6)Unpacking objects:  33% (2/6)Unpacking objects:  50% (3/6)Unpacking objects:  66% (4/6)Unpacking objects:  83% (5/6)Unpacking objects: 100% (6/6)Unpacking objects: 100% (6/6), 1.24 KiB | 1.24 MiB/s, done.
+From https://github.com/CodeOki/CISC-3142
+   308dd3e..96ea134  main       -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git co[K[K[K[K[K[Kgit branch --set-upstream-to=origin/master master
+error: the requested upstream branch 'origin/master' does not exist
+[33mhint: [m
+[33mhint: If you are planning on basing your work on an upstream[m
+[33mhint: branch that already exists at the remote, you may need to[m
+[33mhint: run "git fetch" to retrieve it.[m
+[33mhint: [m
+[33mhint: If you are planning to push out a new local branch that[m
+[33mhint: will track its remote counterpart, you may want to use[m
+[33mhint: "git push -u" to set the upstream config as you push.[m
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git branch --set-upstream-to=origin/master master[K
+fatal: branch 'maste' does not exist
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Terminal.term-0.term[m
+	[31mdeleted:    typescript[m
+	[31mdeleted:    ../Note.txt[m
+	[31mdeleted:    ../Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.Terminal.term-0.term[m
+	[31m../.bash_history[m
+	[31m../.bash_profile[m
+	[31m../.bashrc[m
+	[31m../.gitconfig[m
+	[31m../.jupyter-blobs-v0.db[m
+	[31m../.lesshst[m
+	[31m../.smc[m
+	[31m../.snapshots/[m
+	[31m../.ssh/[m
+	[31m../.viminfo[m
+	[31m.Terminal.term-1.term[m
+	[31m.Terminal.term-2.term[m
+	[31m.Terminal.term-3.term[m
+	[31mCISC-3142/Note.txt[m
+	[31mCISC-3142/README.md[m
+	[31mEx2/[m
+	[31mREADME.md[m
+	[31mscript-2022-09-14.log[m
+	[31mscript-2022-09-15.log[m
+	[31mtime-2022-09-14.txt[m
+	[31mtime-2022-09-15.txt[m
+	[31m../script[m
+	[31m../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git commit -m "[K[K[K[K[K[K[Kit
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Terminal.term-0.term[m
+	[31mdeleted:    typescript[m
+	[31mdeleted:    ../Note.txt[m
+	[31mdeleted:    ../Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.Terminal.term-0.term[m
+	[31m../.bash_history[m
+	[31m../.bash_profile[m
+	[31m../.bashrc[m
+	[31m../.gitconfig[m
+	[31m../.jupyter-blobs-v0.db[m
+	[31m../.lesshst[m
+	[31m../.smc[m
+	[31m../.snapshots/[m
+	[31m../.ssh/[m
+	[31m../.viminfo[m
+	[31m.Terminal.term-1.term[m
+	[31m.Terminal.term-2.term[m
+	[31m.Terminal.term-3.term[m
+	[31mCISC-3142/Note.txt[m
+	[31mCISC-3142/README.md[m
+	[31mEx2/[m
+	[31mREADME.md[m
+	[31mscript-2022-09-14.log[m
+	[31mscript-2022-09-15.log[m
+	[31mtime-2022-09-14.txt[m
+	[31mtime-2022-09-15.txt[m
+	[31m../script[m
+	[31m../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push -u
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push -f
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push [K[K[K[K[K[K[K[K[Kgit push origin master
+Username for 'https://github.com': 
+Password for 'https://github.com': 
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/CodeOki/CISC-3142.git/'
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push origin master
+Username for 'https://github.com': CodeOki
+Password for 'https://CodeOki@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/CodeOki/CISC-3142.git/'
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ssh -T
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ssh -T git@github.com:CodeOki/CISC-3142.git
+ssh: Could not resolve hostname github.com:CodeOki/CISC-3142.git: Name or service not known
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ssh -t[KT [K[K[K[K[K[K[Kgit commit -m [K "This is[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ push.default
+bash: push.default: command not found
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git clone git push --set-upstream origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit clone git@github.com:CodeOki/CISC-3142.git
+fatal: destination path 'CISC-3142' already exists and is not an empty directory.
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push --set-upstream
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push --set [K-s[Kupstream origin master
+Username for 'https://github.com': CodeOki
+Password for 'https://CodeOki@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/CodeOki/CISC-3142.git/'
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ssh -T git@github.com
+Hi CodeOki! You've successfully authenticated, but GitHub does not provide shell access.
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git cm[Kommi[K[K[K[K[Kpush
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push =-=[K[K[K--set-upstream origin master
+Username for 'https://github.com': CodeOki2 
+Password for 'https://CodeOki@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/CodeOki/CISC-3142.git/'
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add --all
+error: '.snapshots/2022-09-07-073822/' does not have a commit checked out
+fatal: adding files failed
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push -u origin master
+Username for 'https://github.com': CodeOki
+Password for 'https://CodeOki@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/CodeOki/CISC-3142.git/'
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git remote set-url origin git@github.com:CodeOki/CISC-3142.git
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git remote set-url origin $(git remote show origin | grep "Fetch URL" | sed 's/ *Fetch URL: //' | sed 's/https:\/\/github.com\//git@github.com:/')
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$  git remote set-url origin git@github.com:CodeOki/CISC-3142.git
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ssh vT  git remote set-url origin git@github.com:CodeOki/CISC-3142.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh vT git@github.com:CodeOki/CISC-3142.git
+ssh: Could not resolve hostname vt: Name or service not known
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ssh vTgit@github.com:CodeOki/CISC-3142.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh vT [K[KT git@github.com:CodeOki/CISC-3142.git
+ssh: Could not resolve hostname vt: Name or service not known
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ssh -vT git@github.com
+OpenSSH_8.2p1 Ubuntu-4ubuntu0.5, OpenSSL 1.1.1f  31 Mar 2020
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to github.com [140.82.112.3] port 22.
+debug1: Connection established.
+debug1: identity file /home/user/.ssh/id_rsa type 0
+debug1: identity file /home/user/.ssh/id_rsa-cert type -1
+debug1: identity file /home/user/.ssh/id_dsa type -1
+debug1: identity file /home/user/.ssh/id_dsa-cert type -1
+debug1: identity file /home/user/.ssh/id_ecdsa type -1
+debug1: identity file /home/user/.ssh/id_ecdsa-cert type -1
+debug1: identity file /home/user/.ssh/id_ecdsa_sk type -1
+debug1: identity file /home/user/.ssh/id_ecdsa_sk-cert type -1
+debug1: identity file /home/user/.ssh/id_ed25519 type 3
+debug1: identity file /home/user/.ssh/id_ed25519-cert type -1
+debug1: identity file /home/user/.ssh/id_ed25519_sk type -1
+debug1: identity file /home/user/.ssh/id_ed25519_sk-cert type -1
+debug1: identity file /home/user/.ssh/id_xmss type -1
+debug1: identity file /home/user/.ssh/id_xmss-cert type -1
+debug1: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
+debug1: Remote protocol version 2.0, remote software version babeld-81baa361
+debug1: no match: babeld-81baa361
+debug1: Authenticating to github.com:22 as 'git'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM
+debug1: Host 'github.com' is known and matches the ECDSA host key.
+debug1: Found key in /home/user/.ssh/known_hosts:1
+Warning: Permanently added the ECDSA host key for IP address '140.82.112.3' to the list of known hosts.
+debug1: rekey out after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 134217728 blocks
+debug1: Will attempt key: /home/user/.ssh/id_rsa RSA SHA256:c2NoSv55J5XlLNEZioqx4UHg20kDlUu187EchNcNmog
+debug1: Will attempt key: /home/user/.ssh/id_dsa 
+debug1: Will attempt key: /home/user/.ssh/id_ecdsa 
+debug1: Will attempt key: /home/user/.ssh/id_ecdsa_sk 
+debug1: Will attempt key: /home/user/.ssh/id_ed25519 ED25519 SHA256:XRQBA+HoKt5yX1ROOmOMUv/KjA/6uh91bSxXUDz0hfo
+debug1: Will attempt key: /home/user/.ssh/id_ed25519_sk 
+debug1: Will attempt key: /home/user/.ssh/id_xmss 
+debug1: SSH2_MSG_EXT_INFO received
+debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp256-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,sk-ssh-ed25519@openssh.com,sk-ecdsa-sha2-nistp256@openssh.com,ssh-ed25519,ecdsa-sha2-nistp521,ecdsa-sha2-nistp384,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256,ssh-rsa>
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Offering public key: /home/user/.ssh/id_rsa RSA SHA256:c2NoSv55J5XlLNEZioqx4UHg20kDlUu187EchNcNmog
+debug1: Authentications that can continue: publickey
+debug1: Trying private key: /home/user/.ssh/id_dsa
+debug1: Trying private key: /home/user/.ssh/id_ecdsa
+debug1: Trying private key: /home/user/.ssh/id_ecdsa_sk
+debug1: Offering public key: /home/user/.ssh/id_ed25519 ED25519 SHA256:XRQBA+HoKt5yX1ROOmOMUv/KjA/6uh91bSxXUDz0hfo
+debug1: Server accepts key: /home/user/.ssh/id_ed25519 ED25519 SHA256:XRQBA+HoKt5yX1ROOmOMUv/KjA/6uh91bSxXUDz0hfo
+debug1: Authentication succeeded (publickey).
+Authenticated to github.com ([140.82.112.3]:22).
+debug1: channel 0: new [client-session]
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending env LC_ALL = C.UTF-8
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+Hi CodeOki! You've successfully authenticated, but GitHub does not provide shell access.
+debug1: channel 0: free: client-session, nchannels 1
+Transferred: sent 2684, received 2444 bytes, in 0.1 seconds
+Bytes per second: sent 23998.1, received 21852.3
+debug1: Exit status 1
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push --set-upstream origin master
+Enumerating objects: 21, done.
+Counting objects:   4% (1/21)Counting objects:   9% (2/21)Counting objects:  14% (3/21)Counting objects:  19% (4/21)Counting objects:  23% (5/21)Counting objects:  28% (6/21)Counting objects:  33% (7/21)Counting objects:  38% (8/21)Counting objects:  42% (9/21)Counting objects:  47% (10/21)Counting objects:  52% (11/21)Counting objects:  57% (12/21)Counting objects:  61% (13/21)Counting objects:  66% (14/21)Counting objects:  71% (15/21)Counting objects:  76% (16/21)Counting objects:  80% (17/21)Counting objects:  85% (18/21)Counting objects:  90% (19/21)Counting objects:  95% (20/21)Counting objects: 100% (21/21)Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects:   5% (1/18)Compressing objects:  11% (2/18)Compressing objects:  16% (3/18)Compressing objects:  22% (4/18)Compressing objects:  27% (5/18)Compressing objects:  33% (6/18)Compressing objects:  38% (7/18)Compressing objects:  44% (8/18)Compressing objects:  50% (9/18)Compressing objects:  55% (10/18)Compressing objects:  61% (11/18)Compressing objects:  66% (12/18)Compressing objects:  72% (13/18)Compressing objects:  77% (14/18)Compressing objects:  83% (15/18)Compressing objects:  88% (16/18)Compressing objects:  94% (17/18)Compressing objects: 100% (18/18)Compressing objects: 100% (18/18), done.
+Writing objects:   4% (1/21)Writing objects:   9% (2/21)Writing objects:  14% (3/21)Writing objects:  19% (4/21)Writing objects:  23% (5/21)Writing objects:  28% (6/21)Writing objects:  33% (7/21)Writing objects:  38% (8/21)Writing objects:  42% (9/21)Writing objects:  47% (10/21)Writing objects:  52% (11/21)Writing objects:  57% (12/21)Writing objects:  61% (13/21)Writing objects:  66% (14/21)Writing objects:  71% (15/21)Writing objects:  76% (16/21)Writing objects:  80% (17/21)Writing objects:  85% (18/21)Writing objects:  90% (19/21)Writing objects:  95% (20/21)Writing objects: 100% (21/21)Writing objects: 100% (21/21), 11.14 KiB | 2.79 MiB/s, done.
+Total 21 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/CodeOki/CISC-3142/pull/new/master[K
+remote: 
+To github.com:CodeOki/CISC-3142.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git ps[Kush --set-upstream origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'git@github.com:CodeOki/CISC-3142.git'
+[m]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+Warning: Permanently added the ECDSA host key for IP address '140.82.113.4' to the list of known hosts.
+Everything up-to-date
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+Everything up-to-date
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Terminal.term-0.term[m
+	[31mdeleted:    typescript[m
+	[31mdeleted:    ../Note.txt[m
+	[31mdeleted:    ../Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.Terminal.term-0.term[m
+	[31m../.bash_history[m
+	[31m../.bash_profile[m
+	[31m../.bashrc[m
+	[31m../.gitconfig[m
+	[31m../.jupyter-blobs-v0.db[m
+	[31m../.lesshst[m
+	[31m../.smc[m
+	[31m../.snapshots/[m
+	[31m../.ssh/[m
+	[31m../.viminfo[m
+	[31m.Terminal.term-1.term[m
+	[31m.Terminal.term-2.term[m
+	[31m.Terminal.term-3.term[m
+	[31mCISC-3142/Note.txt[m
+	[31mCISC-3142/README.md[m
+	[31mEx2/[m
+	[31mREADME.md[m
+	[31mscript-2022-09-14.log[m
+	[31mscript-2022-09-15.log[m
+	[31mtime-2022-09-14.txt[m
+	[31mtime-2022-09-15.txt[m
+	[31m../script[m
+	[31m../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .Terminal.term-0.term[m
+	[31mdeleted:    typescript[m
+	[31mdeleted:    ../Note.txt[m
+	[31mdeleted:    ../Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.Terminal.term-0.term[m
+	[31m../.bash_history[m
+	[31m../.bash_profile[m
+	[31m../.bashrc[m
+	[31m../.gitconfig[m
+	[31m../.jupyter-blobs-v0.db[m
+	[31m../.lesshst[m
+	[31m../.smc[m
+	[31m../.snapshots/[m
+	[31m../.ssh/[m
+	[31m../.viminfo[m
+	[31m.Terminal.term-1.term[m
+	[31m.Terminal.term-2.term[m
+	[31m.Terminal.term-3.term[m
+	[31mCISC-3142/Note.txt[m
+	[31mCISC-3142/README.md[m
+	[31mEx2/[m
+	[31mREADME.md[m
+	[31mscript-2022-09-14.log[m
+	[31mscript-2022-09-15.log[m
+	[31mtime-2022-09-14.txt[m
+	[31mtime-2022-09-15.txt[m
+	[31m../script[m
+	[31m../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ c[Kgit commit [K[K[K[K[K[K[K[K[K[K[Kgi[K[Kgit add [K[K[K[K[K[K[K[Kgit rm typrs[K[K[Kpescript
+rm 'MainDirectoryFolder/typescript'
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git rm /Noe[Kte.ext[K[K[Ktext
+fatal: /Note.text: '/Note.text' is outside repository
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git rm Not[Kte[K[K[K[K[K[K[K[K[K[K[Kgi[K[Kgit add a[K-all
+error: did you mean `--all` (with two dashes)?
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add --all
+error: '.snapshots/2022-09-07-073822/' does not have a commit checked out
+fatal: adding files failed
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add --=[K[K[KA[K[K --A
+error: unknown option `A'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add --ignore-errors[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kd -A
+error: '.snapshots/2022-09-07-073822/' does not have a commit checked out
+fatal: adding files failed
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git re[Km .snapshots/2022-09-07-073822/
+fatal: pathspec '.snapshots/2022-09-07-073822/' did not match any files
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git commit -m "this is 2nd commi[Kit for exc[Kercise 2"
+[master 6958014] this is 2nd commit for exercise 2
+ 1 file changed, 193 deletions(-)
+ delete mode 100644 MainDirectoryFolder/typescript
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 369 bytes | 369.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:CodeOki/CISC-3142.git
+   7da21ab..6958014  master -> master
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push -u origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'git@github.com:CodeOki/CISC-3142.git'
+[m]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git push
+Everything up-to-date
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ cd Ex 2
+bash: cd: too many arguments
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ cd
+]0;~[01;34m~[00m$ cd Ex 2
+bash: cd: too many arguments
+]0;~[01;34m~[00m$ C[Kcd Ex2
+bash: cd: Ex2: No such file or directory
+]0;~[01;34m~[00m$ lls
+bash: lls: command not found
+]0;~[01;34m~[00m$ ls
+[0m[01;34mMainDirectoryFolder[0m  script  typescript
+]0;~[01;34m~[00m$ MainDirectoryFolder
+bash: MainDirectoryFolder: command not found
+]0;~[01;34m~[00m$ cd Man[KinDirectoryFolder
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ls
+[0m[01;34mCISC-3142[0m  Makefile  README.md      script-2022-09-14.log  time-2022-09-14.txt
+[01;34mEx2[0m        Note.txt  Terminal.term  script-2022-09-15.log  time-2022-09-15.txt
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ c[Kcd Ex2
+]0;~/MainDirectoryFolder/Ex2[01;34m~/MainDirectoryFolder/Ex2[00m$ git add [K[K[K[K[K[K[K[Kgit status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../.Terminal.term-0.term[m
+	[31mdeleted:    ../../Note.txt[m
+	[31mdeleted:    ../../Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../.Terminal.term-0.term[m
+	[31m../../.bash_history[m
+	[31m../../.bash_profile[m
+	[31m../../.bashrc[m
+	[31m../../.gitconfig[m
+	[31m../../.jupyter-blobs-v0.db[m
+	[31m../../.lesshst[m
+	[31m../../.smc[m
+	[31m../../.snapshots/[m
+	[31m../../.ssh/[m
+	[31m../../.viminfo[m
+	[31m../.Terminal.term-1.term[m
+	[31m../.Terminal.term-2.term[m
+	[31m../.Terminal.term-3.term[m
+	[31m../CISC-3142/Note.txt[m
+	[31m../CISC-3142/README.md[m
+	[31m./[m
+	[31m../README.md[m
+	[31m../script-2022-09-14.log[m
+	[31m../script-2022-09-15.log[m
+	[31m../time-2022-09-14.txt[m
+	[31m../time-2022-09-15.txt[m
+	[31m../../script[m
+	[31m../../typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/MainDirectoryFolder/Ex2[01;34m~/MainDirectoryFolder/Ex2[00m$ git add all
+fatal: pathspec 'all' did not match any files
+]0;~/MainDirectoryFolder/Ex2[01;34m~/MainDirectoryFolder/Ex2[00m$ git add --all
+error: '.snapshots/2022-09-07-073822/' does not have a commit checked out
+fatal: adding files failed
+]0;~/MainDirectoryFolder/Ex2[01;34m~/MainDirectoryFolder/Ex2[00m$ c[Kls
+README.md  Sales_item.h
+]0;~/MainDirectoryFolder/Ex2[01;34m~/MainDirectoryFolder/Ex2[00m$ cd[K[Kcd ..
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ls
+[0m[01;34mCISC-3142[0m  Makefile  README.md      script-2022-09-14.log  time-2022-09-14.txt
+[01;34mEx2[0m        Note.txt  Terminal.term  script-2022-09-15.log  time-2022-09-15.txt
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ cd CISC-3142
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git 
+Display all 138 possibilities? (y or n)
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git [K[K[K[Kgit[K
