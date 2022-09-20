@@ -1,0 +1,65 @@
+*This text-based file thats saved as "Note.txt" will be listing all the software, version, link to download, and documentation
+
+I would be mainly using cocalc.com for my local development environment
+cocalc.com is a virtual online workspace that allows many different types of systems/programs to run remotely within a created project on a web browser
+I am using CoCalc Linux Terminal which is basically a Linux Terminal that is running in a project I created on the website
+Everything will be backed up and synchronized including files as long its in the project itself created within the online workspace
+
+***Terminal***
+~$ uname -r
+5.13.0-1033-gcp
+~$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 20.04.4 LTS
+Release:        20.04
+Codename:       focal
+~$ cat /etc/os-release
+NAME="Ubuntu"
+VERSION="20.04.4 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.4 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+
+***Git Version***
+$ git --version
+git version 2.25.1
+
+***Compilers Version***
+~$ g++ --version
+g++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+~$ gcc --version
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+~$ make --version
+GNU Make 4.2.1
+Built for x86_64-pc-linux-gnu
+Copyright (C) 1988-2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+***Terminal Session***
+Script started, file is typescript
+~$ date +%F
+2022-09-07
+~$ time
+real    0m0.000s
+user    0m0.000s
+sys     0m0.000s
+~$ ls
+Note.txt  Terminal.term  script  typescript
