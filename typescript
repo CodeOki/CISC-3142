@@ -1,0 +1,213 @@
+Script started on 2022-09-07 06:44:37+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="202" LINES="45"]
+]0;~[01;34m~[00m$ (date +%F
+> ).log
+bash: syntax error near unexpected token `.log'
+]0;~[01;34m~[00m$ --
+bash: --: command not found
+]0;~[01;34m~[00m$ timing=time[K[K[K[K[K[K[K[K[K[K[Kscript
+Script started, file is typescript
+]0;~[01;34m~[00m$ date
+Wed Sep  7 06:47:06 UTC 2022
+]0;~[01;34m~[00m$ time
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+]0;~[01;34m~[00m$ date +%F
+2022-09-07
+]0;~[01;34m~[00m$ date +^[K&[K%F
+2022-09-07
+]0;~[01;34m~[00m$ timing=time
+]0;~[01;34m~[00m$ --timing [K=time
+bash: --timing=time: command not found
+]0;~[01;34m~[00m$ script
+Script started, file is typescript
+]0;~[01;34m~[00m$ (D[Kdate +^[K%F).txt
+bash: syntax error near unexpected token `.txt'
+]0;~[01;34m~[00m$ (date +^&[K[K%F) .txt
+bash: syntax error near unexpected token `.txt'
+]0;~[01;34m~[00m$ ls
+ Note.txt  'Task 1 - Note.txt'   Terminal.term   script   typescript
+]0;~[01;34m~[00m$ ls
+Note.txt  Terminal.term  script  typescript
+]0;~[01;34m~[00m$ ls -al ~/.ssh
+total 3
+drwxr-xr-x 2 user user   3 Sep  7 05:37 [0m[01;34m.[0m
+drwxr-xr-x 4 user user  15 Sep  7 06:52 [01;34m..[0m
+-r--r--r-- 1 user user 322 Sep  7 05:37 authorized_keys
+]0;~[01;34m~[00m$ $ ssh-keygen -t ed25519 -C "your_email@example.com"
+bash: $: command not found
+]0;~[01;34m~[00m$ ssh-keygen -t ed25519 -C "your_email@example.com"dav[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdavidweng12345@gmail.com
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519): Note.txt
+Note.txt already exists.
+Overwrite (y/n)? n
+]0;~[01;34m~[00m$ Terminal.term
+bash: Terminal.term: command not found
+]0;~[01;34m~[00m$ cat ~/.ssh/id_ed25519.pub
+cat: /home/user/.ssh/id_ed25519.pub: No such file or directory
+]0;~[01;34m~[00m$ ls -al ~/.ssh
+total 3
+drwxr-xr-x 2 user user   3 Sep  7 05:37 [0m[01;34m.[0m
+drwxr-xr-x 4 user user  15 Sep  7 06:52 [01;34m..[0m
+-r--r--r-- 1 user user 322 Sep  7 05:37 authorized_keys
+]0;~[01;34m~[00m$ ssh-keygen -t ed25519 -C "your_email@example.com"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kdavidweng12345@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/user/.ssh/id_ed25519
+Your public key has been saved in /home/user/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:XRQBA+HoKt5yX1ROOmOMUv/KjA/6uh91bSxXUDz0hfo davidweng12345@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|        ooo.=*o..|
+|       o   o .+..|
+|      o . o .....|
+|     o + * +..   |
+|    . o S = =.   |
+|     o + = +  E  |
+|  . . o . .      |
+| ..o.. B .       |
+|  .o=*=.=        |
++----[SHA256]-----+
+]0;~[01;34m~[00m$ git push --all
+fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;~[01;34m~[00m$ git status
+fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+]0;~[01;34m~[00m$ git cofi[K[Knfig --global user.name
+]0;~[01;34m~[00m$ david weng
+bash: david: command not found
+]0;~[01;34m~[00m$ git config --global user.name ''[Cd'a'v'i'd' '[1P' 'w'e'n'g'
+]0;~[01;34m~[00m$ git config --global user.email ''d'a'v'i'd'w'e'n'g'1'2'3'4'5'@'g'm'a'i'l'.'c'o'm'
+]0;~[01;34m~[00m$ git init
+Initialized empty Git repository in /home/user/.git/
+]0;~[01;34m~[00m$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;~[01;34m~[00m$ git add Note.txt
+]0;~[01;34m~[00m$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+]0;~[01;34m~[00m$ gi [Kt status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   Note.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.Terminal.term-0.term[m
+	[31m.bash_history[m
+	[31m.bash_profile[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.jupyter-blobs-v0.db[m
+	[31m.smc[m
+	[31m.snapshots/[m
+	[31m.ssh/[m
+	[31m.viminfo[m
+	[31mTerminal.term[m
+	[31mscript[m
+	[31mtypescript[m
+
+]0;~[01;34m~[00m$ git add Terminal.term
+]0;~[01;34m~[00m$ git add viminfo
+fatal: pathspec 'viminfo' did not match any files
+]0;~[01;34m~[00m$ git add v[Kssh
+fatal: pathspec 'ssh' did not match any files
+]0;~[01;34m~[00m$ git add [K[K[K[K[K status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   Note.txt[m
+	[32mnew file:   Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.Terminal.term-0.term[m
+	[31m.bash_history[m
+	[31m.bash_profile[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.jupyter-blobs-v0.db[m
+	[31m.smc[m
+	[31m.snapshots/[m
+	[31m.ssh/[m
+	[31m.viminfo[m
+	[31mscript[m
+	[31mtypescript[m
+
+]0;~[01;34m~[00m$ git add MainDirectoryFolder
+]0;~[01;34m~[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   Note.txt[m
+	[32mnew file:   Terminal.term[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.Terminal.term-0.term[m
+	[31m.bash_history[m
+	[31m.bash_profile[m
+	[31m.bashrc[m
+	[31m.gitconfig[m
+	[31m.jupyter-blobs-v0.db[m
+	[31m.smc[m
+	[31m.snapshots/[m
+	[31m.ssh/[m
+	[31m.viminfo[m
+	[31mscript[m
+	[31mtypescript[m
+
+]0;~[01;34m~[00m$ ls
+[0m[01;34mMainDirectoryFolder[0m  Note.txt  Terminal.term  script  typescript
+]0;~[01;34m~[00m$ pwd
+/home/user
+]0;~[01;34m~[00m$ cd
+]0;~[01;34m~[00m$ cd MainDirectoryFolder
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add Note.txt
+fatal: pathspec 'Note.txt' did not match any files
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git.add Terminal.term
+bash: git.add: command not found
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ git add Terminal.term
+fatal: pathspec 'Terminal.term' did not match any files
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$  'MainDirectoryFolder' [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ ls
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ mv -v 'Terminal.term' 'Note.txt'
+mv: cannot stat 'Terminal.term': No such file or directory
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ mv -v 'Terminal.term' 'Note.txt'
+mv: cannot stat 'Terminal.term': No such file or directory
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ cd
+]0;~[01;34m~[00m$ mv -v 'Terminal.term' 'Note.txt'
+renamed 'Terminal.term' -> 'Note.txt'
+]0;~[01;34m~[00m$ mv -v 'Terminal.term' 'Note.txt'
+mv: cannot stat 'Terminal.term': No such file or directory
+]0;~[01;34m~[00m$ stat 'Terminal.term'
+stat: cannot stat 'Terminal.term': No such file or directory
+]0;~[01;34m~[00m$  'MainDirectoryFolder' 
+bash: MainDirectoryFo
