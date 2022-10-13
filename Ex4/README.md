@@ -10,6 +10,8 @@ _**UPDATE: Tried different methods for Makefile such as sub makefile and compili
 
 _**currently receiving errors and will fix soon! The programs itself should be fine.**_
 
+_**NEW UPDATE: Makefile is fixed with submission Exercise 5**_
+
 ```
 make Ex4
 ```

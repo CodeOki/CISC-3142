@@ -1,5 +1,18 @@
 setup:
-mkdir -p $(./Ex2)/bin
+	mkdir -p $(./Ex2)/bin
+
+Ex5:
+	echo "running program Sums of Digits\n"
+	make compile-file-only dir="Ex5" f="sumsofdigits.cpp"
+	cd ..
+
+	echo "running program Prime Numbers\n"
+	make compile-file-only dir="Ex5" f="primenumbers.cpp"
+	cd ..
+
+	echo "running program Linear Regression\n"
+	make compile-file-only dir="Ex5" f="sumsofdigits.cpp"
+
 
 Ex4:
 	echo "running program Ex3.17\n"
@@ -48,7 +61,7 @@ compile-file-input:
 	cd ${dir} && ./${f} < ${inputfile}
 
 clean:
-rm $(./Ex2)/bin/*.o
+	rm $(./Ex2)/bin/*.o
 
 @hello:
 	echo "Hello, World"
