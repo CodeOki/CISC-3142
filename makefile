@@ -1,6 +1,19 @@
 setup:
 	mkdir -p $(./Ex2)/bin
 
+Ex7:
+	echo "running program Classes and Objects\n"
+	make compile-file-only dir="Ex7" f="classobject.cpp"
+	cd ..
+
+	echo "running program Conductors\n"
+	make compile-file-only dir="Ex7" f="conductor.cpp"
+	cd ..
+
+	echo "running program Struct\n"
+	make compile-file-only dir="Ex7" f="struct.cpp"
+	cd ..
+
 Ex5:
 	echo "running program Sums of Digits\n"
 	make compile-file-only dir="Ex5" f="sumsofdigits.cpp"
@@ -11,7 +24,7 @@ Ex5:
 	cd ..
 
 	echo "running program Linear Regression\n"
-	make compile-file-only dir="Ex5" f="sumsofdigits.cpp"
+	make compile-file-only dir="Ex5" f="linearregression.cpp"
 
 
 Ex4:
