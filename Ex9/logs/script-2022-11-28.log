@@ -1,0 +1,95 @@
+Script started on 2022-11-28 03:23:04+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="133" LINES="49"]
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ scriptreplay --timing=time-$(date +%F).txt script-$(date +%F).log
+
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ cd Ex9
+]0;~/MainDirectoryFolder/CISC-3142/Ex9[01;34m~/MainDirectoryFolder/CISC-3142/Ex9[00m$ cd src
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ru[K[Kg++ -o hello hello.Cwea[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KweatherProgram
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ -o weatherProgram.cpp
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ -o weatherProgram.cpp[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KweatherProgram weather[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kg++ h[KweatherProgram.cpp -o output.txt
+[01m[KweatherProgram.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KweatherProgram.cpp:31:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemperature[m[K’ was not declared in this scope
+   31 |     getline(input, [01;31m[Ktemperature[m[K, '\n');
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[KweatherProgram.cpp:38:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   38 |   ofstream[01;31m[K.[m[Kmyfile;
+      |           [01;31m[K^[m[K
+[01m[KweatherProgram.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyfile[m[K’ was not declared in this scope; did you mean ‘[01m[Ktmpfile[m[K’?
+   39 |   [01;31m[Kmyfile[m[K.open("output.txt");
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktmpfile[m[K
+[01m[KweatherProgram.cpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kaverage[m[K’ was not declared in this scope
+   48 |          << "average is: " << [01;31m[Kaverage[m[K(vecTemp) << endl
+      |                               [01;31m[K^~~~~~~[m[K
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp -o output.txt
+[01m[KweatherProgram.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KweatherProgram.cpp:41:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ktemperature[m[K’ was not declared in this scope
+   41 |     getline(input, [01;31m[Ktemperature[m[K, '\n');
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[KweatherProgram.cpp:48:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   48 |   ofstream[01;31m[K.[m[Kmyfile;
+      |           [01;31m[K^[m[K
+[01m[KweatherProgram.cpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyfile[m[K’ was not declared in this scope; did you mean ‘[01m[Ktmpfile[m[K’?
+   49 |   [01;31m[Kmyfile[m[K.open("output.txt");
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktmpfile[m[K
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp -o output.txt
+[01m[KweatherProgram.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KweatherProgram.cpp:48:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   48 |   ofstream[01;31m[K.[m[Kmyfile;
+      |           [01;31m[K^[m[K
+[01m[KweatherProgram.cpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyfile[m[K’ was not declared in this scope; did you mean ‘[01m[Ktmpfile[m[K’?
+   49 |   [01;31m[Kmyfile[m[K.open("output.txt");
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktmpfile[m[K
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp -o output.txt
+[01m[KweatherProgram.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KweatherProgram.cpp:48:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   48 |   ofstream[01;31m[K.[m[Kmyfile;
+      |           [01;31m[K^[m[K
+[01m[KweatherProgram.cpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyfile[m[K’ was not declared in this scope; did you mean ‘[01m[Ktmpfile[m[K’?
+   49 |   [01;31m[Kmyfile[m[K.open("src/output.txt");
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktmpfile[m[K
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp -o output.txt
+[01m[KweatherProgram.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KweatherProgram.cpp:48:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   48 |   ofstream[01;31m[K.[m[Kmyfile;
+      |           [01;31m[K^[m[K
+[01m[KweatherProgram.cpp:49:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kopen[m[K’ in ‘[01m[Ktmpfile[m[K’, which is of non-class type ‘[01m[KFILE*()[m[K’ {aka ‘[01m[K_IO_FILE*()[m[K’}
+   49 |   tmpfile.[01;31m[Kopen[m[K("output.txt");
+      |           [01;31m[K^~~~[m[K
+[01m[KweatherProgram.cpp:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyfile[m[K’ was not declared in this scope; did you mean ‘[01m[Ktmpfile[m[K’?
+   50 |   [01;31m[Kmyfile[m[K << "raw data is: " << endl;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktmpfile[m[K
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp -o output.txt
+[01m[KweatherProgram.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KweatherProgram.cpp:48:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K.[m[K’ token
+   48 |   ofstream[01;31m[K.[m[Kmyfile;
+      |           [01;31m[K^[m[K
+[01m[KweatherProgram.cpp:49:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kopen[m[K’ in ‘[01m[Ktmpfile[m[K’, which is of non-class type ‘[01m[KFILE*()[m[K’ {aka ‘[01m[K_IO_FILE*()[m[K’}
+   49 |   tmpfile.[01;31m[Kopen[m[K("output.txt");
+      |           [01;31m[K^~~~[m[K
+[01m[KweatherProgram.cpp:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmyfile[m[K’ was not declared in this scope; did you mean ‘[01m[Ktmpfile[m[K’?
+   50 |   [01;31m[Kmyfile[m[K << "raw data is: " << endl;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[Ktmpfile[m[K
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp -o output.txt
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp -o output.txt
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ./ output.txt
+bash: ./: Is a directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ./output.txt
+bash: ./output.txt: cannot execute binary file: Exec format error
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ./ output
+bash: ./: Is a directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ make output.txt
+make: Nothing to be done for 'output.txt'.
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ weatherProgram.cpp
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ./ weatherProgram
+bash: ./: Is a directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ /path/to/demo
+ba
