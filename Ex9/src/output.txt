@@ -8,9 +8,8 @@ Jun 79
 Jul 85
 Aug 81
 Sep 76
- 76
 
-average is 65.9
+average is 64.7778
 
 Moving average for Mar is 43
 Moving average for Apr is 50
@@ -19,7 +18,6 @@ Moving average for Jun is 70
 Moving average for Jul is 78
 Moving average for Aug is 81
 Moving average for Sep is 80
-Moving average for  is 77
 
 
 Weighted moving average for Jan is 45.5
