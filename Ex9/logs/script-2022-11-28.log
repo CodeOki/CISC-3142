@@ -92,4 +92,94 @@ make: Nothing to be done for 'output.txt'.
 ]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ./ weatherProgram
 bash: ./: Is a directory
 ]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ /path/to/demo
-ba
+bash: /path/to/demo: No such file or directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ /path/to/demo[K[K[K[KweatherProgram
+bash: /path/to/weatherProgram: No such file or directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ run
+bash: run: command not found
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ru[K[Kls
+[0m[01;32ma.out[0m  [01;32moutput.txt[0m  weather.csv.txt  weatherProgram.cpp
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ g++ -o hi hi.cpp[K[K[K[K[K[K[K[K[KweatherProgram weatherProgram.cpp
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ./ weatherp[KProgram
+bash: ./: Is a directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ./ weatherProgram.cpp
+bash: ./: Is a directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ /t[K[Kcd Ex9
+bash: cd: Ex9: No such file or directory
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ cd CISC 3142
+bash: cd: too many arguments
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ ls[K[Kcd
+]0;~[01;34m~[00m$ cd MainDirectoryFolder
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ cd CISC 3142
+bash: cd: too many arguments
+]0;~/MainDirectoryFolder[01;34m~/MainDirectoryFolder[00m$ cd CISC-3142
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git [K[K[K[Kgit add -u
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git add -A
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git commit - [Km D[KD[K"[K"Complete Exercise 9"
+[main f8a58ff] Complete Exercise 9
+ 8 files changed, 210 insertions(+)
+ create mode 100644 Ex9/README.md
+ create mode 100644 Ex9/logs/script-2022-11-28.log
+ create mode 100644 Ex9/logs/time-2022-11-28.txt
+ create mode 100755 Ex9/src/a.out
+ create mode 100755 Ex9/src/output.txt
+ create mode 100644 Ex9/src/weather.csv.txt
+ create mode 100755 Ex9/src/weatherProgram
+ create mode 100644 Ex9/src/weatherProgram.cpp
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git push
+Enumerating objects: 12, done.
+Counting objects:   8% (1/12)Counting objects:  16% (2/12)Counting objects:  25% (3/12)Counting objects:  33% (4/12)Counting objects:  41% (5/12)Counting objects:  50% (6/12)Counting objects:  58% (7/12)Counting objects:  66% (8/12)Counting objects:  75% (9/12)Counting objects:  83% (10/12)Counting objects:  91% (11/12)Counting objects: 100% (12/12)Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects:  10% (1/10)Compressing objects:  20% (2/10)Compressing objects:  30% (3/10)Compressing objects:  40% (4/10)Compressing objects:  50% (5/10)Compressing objects:  60% (6/10)Compressing objects:  70% (7/10)Compressing objects:  80% (8/10)Compressing objects:  90% (9/10)Compressing objects: 100% (10/10)Compressing objects: 100% (10/10), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  81% (9/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 17.44 KiB | 5.81 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:CodeOki/CISC-3142.git
+   2956a77..f8a58ff  main -> main
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git log --since='2 weeks ago'
+[?1h=[33mcommit f8a58ff2ad7fef058c435b79bcb4a8d72124ee41[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: CodeOki <davidweng12345@gmail.com>[m
+Date:   Mon Nov 28 05:00:47 2022 +0000[m
+[m
+    Complete Exercise 9[m
+[K[?1l>]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git log --oneline --decorate --color --max-count=10 --since='2 weeks ago'
+[?1h=[33mf8a58ff[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Complete Exercise 9[m
+[K[?1l>]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git add -u
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git add -A
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git commit - [Km "Fix [Ked incco[K[Korrect output [K"
+[main 381411e] Fixed incorrect output
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ git push
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 445 bytes | 445.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:CodeOki/CISC-3142.git
+   f8a58ff..381411e  main -> main
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ g++ weatherProgram
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KweatherProgram: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ g++ weatherProgram weatherProgram.cpp
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KweatherProgram: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kerror: [m[KweatherProgram.cpp: No such file or directory
+[01m[Kg++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+]0;~/MainDirectoryFolder/CISC-3142[01;34m~/MainDirectoryFolder/CISC-3142[00m$ cd Esx[K[Kx9
+]0;~/MainDirectoryFolder/CISC-3142/Ex9[01;34m~/MainDirectoryFolder/CISC-3142/Ex9[00m$ cd src
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ cd srcEx9g++ weatherProgram weatherProgram.cpp
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ git add -U[Ku
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ gitt[K add -A
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ git push
+Everything up-to-date
+]0;~/MainDirectoryFolder/CISC-3142/Ex9/src[01;34m~/MainDirectoryFolder/CISC-3142/Ex9/src[00m$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   ../logs/time-2022-11-28.txt[m
+	[32mm
